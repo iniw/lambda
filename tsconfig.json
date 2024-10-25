@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "newLine": "LF",
+    "target": "es5",
+    "sourceMap": true,
+    "declaration": true,
+    "jsx": "preserve",
+    "lib": ["es2017", "dom"],
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src/**/*"],
+  "exclude": [".direnv", ".git", "node_modules"]
+}
